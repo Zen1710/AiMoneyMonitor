@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #121416;
+  --color-panel: #1b1f22;
+  --color-line: #2c3338;
+  --color-brand: #0a78b4;
+  --color-accent: #1fb5e9;
+  --color-text: #e8edf0;
+  --color-muted: #9aa5ad;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+}

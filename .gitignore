@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.log
+.DS_Store
+.vscode/
+.idea/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Rahasia
+.env*
+!.env.example
+*.pem
+id_rsa
+*credentials*.json
+*service-account*.json
