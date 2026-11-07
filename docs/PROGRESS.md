@@ -10,7 +10,7 @@ Status: desain selesai pada 2026-11-01. Kerangka awal sudah ada: Next.js, tiga h
 - **Stack:** Next.js + PostgreSQL, di Vercel Hobby + Neon Free. Paket pnpm.
 - **AI:** OpenRouter dengan `google/gemini-2.5-flash-lite` berbayar. Nama model cukup diganti di satu tempat.
 - **Privasi AI:** dua opsi logging OpenRouter tetap mati. Uji coba hanya memakai data contoh, karena `google/gemini-2.5-flash-lite` tidak ada di daftar ZDR OpenRouter.
-- **Halaman:** Chat dengan ringkasan Arus Bulanan, Transaksi, Kategori. Tampilan sederhana, warna hitam-biru `#121416`, `#0A78B4`, `#1FB5E9`.
+- **Halaman:** Dashboard (menu pertama: Arus Bulanan, Keluar per Kategori, tren Masuk dan Keluar 6 bulan, Transaksi terbaru), Chat dengan ringkasan Arus Bulanan, Transaksi, Kategori. Dashboard ditambahkan 2026-11-05. Tampilan sederhana, warna hitam-biru `#121416`, `#0A78B4`, `#1FB5E9`.
 - **Tabel Transaksi:** Tanggal, Jenis, Kategori, Nominal, Deskripsi. Khusus Rupiah, tanpa dompet.
 - **Kategori:** daftar per Pengguna, dimulai dari Makan, Transport, Tagihan, Belanja, Gaji, Lainnya.
 - **Kewenangan Asisten:**
