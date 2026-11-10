@@ -1,13 +1,36 @@
 @import "tailwindcss";
 
+/* Synced with design/aimoneymonitor.pen (Mode: Dark, Palette: Arknights). */
 @theme {
-  --color-ink: #121416;
-  --color-panel: #1b1f22;
-  --color-line: #2c3338;
-  --color-brand: #0a78b4;
-  --color-accent: #1fb5e9;
-  --color-text: #e8edf0;
-  --color-muted: #9aa5ad;
+  /* Surfaces */
+  --color-ink: #121416; /* --background */
+  --color-sidebar: #16191b; /* --sidebar */
+  --color-panel: #1b1f22; /* --card */
+  --color-raised: #22282c; /* --secondary, --muted */
+
+  /* Lines */
+  --color-line: #2c3338; /* --border: dividers */
+  --color-line-control: #56636c; /* --input: input and control borders */
+
+  /* Text */
+  --color-text: #e8edf0; /* --foreground */
+  --color-muted: #aeb8bf; /* --muted-foreground */
+
+  /* Brand */
+  --color-brand: #0a78b4; /* --primary */
+  --color-on-brand: #ffffff; /* --primary-foreground */
+  --color-accent: #1fb5e9; /* --brand-bright: logo, links */
+
+  /* Money flow */
+  --color-income: #5cc6f0; /* --income: Masuk text */
+  --color-chart-in: #0a78b4; /* --chart-in */
+  --color-chart-out: #c0843a; /* --chart-out */
+
+  /* Status */
+  --color-danger: #f2555a; /* --destructive: text and icons */
+  --color-danger-strong: #c8353b; /* --destructive-strong: fill behind white text */
+  --color-info: #0d2433; /* --color-info */
+  --color-info-text: #8ad6f4; /* --color-info-foreground */
 }
 
 body {
